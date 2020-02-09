@@ -7,9 +7,10 @@ interface IProps {
     avatarUrl: string
     emailAddress: string
     mobileNumber: string
+    location: string
 }
 
-export const Profile: React.FC<IProps> = ({ name, aboutMe, emailAddress, mobileNumber, avatarUrl }) => {
+export const Profile: React.FC<IProps> = ({ name, aboutMe, emailAddress, mobileNumber, avatarUrl, location }) => {
     return (
         <section className="tile tile-profile">
             <img className="avatar" alt={name} title={name} src={avatarUrl} />
@@ -17,11 +18,12 @@ export const Profile: React.FC<IProps> = ({ name, aboutMe, emailAddress, mobileN
             <h4>{aboutMe}</h4>
             <p><a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
             <p><a href={`tel:${mobileNumber}`}>{mobileNumber}</a></p>
+            <p>{location}</p>
             <span className="dot"></span>
             <span className="dot"></span>
             <span className="dot"></span>
             <span className="dot"></span>
             <span className="dot"></span>
-      </section>
+        </section>
     );
 };

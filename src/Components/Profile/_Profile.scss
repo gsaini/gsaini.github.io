@@ -4,7 +4,7 @@
   &-profile {
     padding: 25px;
     text-align: center;
-    background-color: $introduction-tile-bgcolor;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), $introduction-tile-bgcolor);
 
     .avatar {
         height: 150px;

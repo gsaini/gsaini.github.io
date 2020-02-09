@@ -1,22 +1,34 @@
 {
     "name": "Gopal Saini",
+    "title": "Welcome to Gopal Saini's Homepage!",
     "aboutMe": "Full stack engineer with 10+ years experience in information technology, specialising in the design of application architectures and creafting of user experience.",
     "mobileNumber": "+1 551 200 4845",
     "emailAddress": "gopal.saini.work@gmail.com",
+    "location": "New York City (NYC), USA",
     "avatarUrl": "https://avatars1.githubusercontent.com/u/1699577?s=400&u=96a4a04aaf87f52fcb51b729df9d80ef11be9537&v=4",
     "tiles": 
         {
             "1": {
-                "title": "Carrier Timeline",
+                "title": "",
                 "bgColor": "#F7AF1F",
                 "timelines": [
                     {
                         "year": 2020,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "designation": "Architect Experience Technology, Publicis Sapient (NYC, USA)",
+                        "projects": [{
+                            "name": "Goldman Sachs | DAS - Digital Advisor Solution",
+                            "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Webpack, NodeJS, AngularJS",
+                            "description": "The Goldman Sachs Group, Inc., is an American multinational investment bank and financial services company headquartered in New York City. It offers services in investment management, securities, asset management, prime brokerage, and securities underwriting."
+                        }]
                     },
                     {
                         "year": 2019,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "designation": "Architect Experience Technology, Publicis Sapient (London)",
+                        "projects": [{
+                            "name": "Llloyds Banking Group | MIP - Machine Innovation Program",
+                            "techStack": "HTML5, CSS3, ES6, NodeJS, DevOps - Docker, Kubernetes, Jenkins Declartive Pipelines, Sonarqube, Google Cloud Platform - App Engine, Compute Engine, GKE, Cloud Run.",
+                            "description": "Lloyds Bank is the largest retail bank in Britain and has an extensive network of branches and ATM in England and Wales (as well as an arrangement for its customers to be serviced by Bank of Scotland branches in Scotland, Halifax branches in Northern Ireland and vice versa) and offers 24-hour telephone and online banking services."
+                        }]
                     }
                 ]
             },
@@ -26,39 +38,21 @@
                 "timelines": [
                     {
                         "year": 2018,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "designation": "Senior Associate, Publicis Sapient (London)",
+                        "projects": [{
+                            "name": "Lloyds Banking Group - Open Banking",
+                            "techStack": "HTML5, CSS3, ES6, ReactJS, Webpack, NodeJS - Loopback",
+                            "description": "Lloyds Bank is the largest retail bank in Britain and has an extensive network of branches and ATM in England and Wales (as well as an arrangement for its customers to be serviced by Bank of Scotland branches in Scotland, Halifax branches in Northern Ireland and vice versa) and offers 24-hour telephone and online banking services. Open Banking is a change to UK regulation which gives you more control over your data and helps you bank the way you want to."
+                        }]
                     },
-                    {
-                        "year": 2017,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
-                    }
-                ]
-            },
-            "3": {
-                "title": "",
-                "bgColor": "#3D9FBD",
-                "timelines": [
                     {
                         "year": 2016,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
-                    },
-                    {
-                        "year": 2015,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
-                    }
-                ]
-            },
-            "4": {
-                "title": "",
-                "bgColor": "#f7aab8",
-                "timelines": [
-                    {
-                        "year": 2014,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
-                    },
-                    {
-                        "year": 2013,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "designation": "Senior Associate, Publicis Sapient (London)",
+                        "projects": [{
+                            "name": "Lloyds Banking Group - Shared Documents",
+                            "techStack": "HTML5, CSS3, ES6, ReactJS, Webpack, NodeJS - Loopback",
+                            "description": "Lloyds Bank is the largest retail bank in Britain and has an extensive network of branches and ATM in England and Wales (as well as an arrangement for its customers to be serviced by Bank of Scotland branches in Scotland, Halifax branches in Northern Ireland and vice versa) and offers 24-hour telephone and online banking services. As of 2012 it has 16 million personal customers and small business accounts. Shared component will create a communication between Colleague & Customer to create & get the invite to open their account online. By Using Shared Component, Colleague will create an invite for their customers to open the accounts online & customers will get the invite from colleague & know what all documents need to upload to open his/her account in the bank."
+                        }]
                     }
                 ]
             },
@@ -67,12 +61,26 @@
                 "bgColor": "#71ca98",
                 "timelines": [
                     {
-                        "year": 2012,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "year": 2014,
+                        "designation": "Associate, Sapient (Gurugram)",
+                        "projects": [{
+                            "name": "(Dec 2013 - June 2016) | Jato - Speedwing",
+                            "techStack": "HTML5, CSS3, AngularJS, JAVA",
+                            "description": "The Speedwing solution will support many more of the OEMs processes than today and supports a continuous process through the OEM Vehicle. The Speedwing solution will be designed to support JATO’s Customers’ business needs rather than delivering specific functionality or data. Speedwing is a fully customizable solution with the ability to mirror OEM internal systems. It is therefore familiar and intuitive, easier to understand and combines both JATO and their content. At the heart of the solution is a high-performing database that combines Specifications, Prices, Options, Source Volumes, Volumes and Incentives into a single data model and is capable of being updated continuously or within a User-Defined schedule, with JATO data. Furthermore, Speedwing integrates seamlessly with new data, Customer data and Third party data."
+                        }]
                     },
                     {
-                        "year": 2011,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "year": 2013,
+                        "designation": "Associate, Sapient (Gurugram)",
+                        "projects": [{
+                            "name": "(June 2013 – Dec 2013) | Tiffany (DAM – Design & Implementation)",
+                            "techStack": "HTML5, CSS3, jQuery, RequireJS, Templates – mustache, JAVA.",
+                            "description": "DAM is an online portal to create, manage assets, brand center, Kits & campaigns for Tiffany & Co. administration."
+                        }, {
+                            "name": "(March 2013 – June 2013) | NHSBT",
+                            "techStack": "HTML5, CSS3, JQuery, PhoneGap",
+                            "description": "NHSBT is an online portal to register, search & book schedule for donation blood processes in UK. "
+                        }]
                     }
                 ]
             },
@@ -81,12 +89,22 @@
                 "bgColor": "#52367c",
                 "timelines": [
                     {
-                        "year": 2010,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "year": 2012,
+                        "designation": "Software Consultant, Radicle Inc. (Gurugram)",
+                        "projects": [{
+                            "name": "(March 2012 - Feb 2013) | BenchPrep",
+                            "techStack": ".Net 4.0 using ASP.NET C#, Extjs-4, Json, Restful WCF Services, Crystal Report 2008, Ajax, XML, jQuery, CSS3, OpenXML, SCSS and  MS SQL 2008",
+                            "description": "iGurukul is a comprehensive web-based School Management Software for Indian schools to assist their management in performing day to day working such as administration, registration, admission, exam schedule, fees deposition, student academic records and other details."
+                        }]
                     },
                     {
                         "year": 2009,
-                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                        "designation": "Application Developer, PSS Ajmer (Rajasthan)",
+                        "projects": [{
+                            "name": "(Aug 2009 - March 2012) | iGurukul",
+                            "techStack": ".Net 4.0 using ASP.NET C#, Extjs-4, Json, Restful WCF Services, Crystal Report 2008, Ajax, XML, jQuery, CSS3, OpenXML, SCSS and  MS SQL 2008",
+                            "description": "iGurukul is a comprehensive web-based School Management Software for Indian schools to assist their management in performing day to day working such as administration, registration, admission, exam schedule, fees deposition, student academic records and other details."
+                        }]
                     }
                 ]
             }
