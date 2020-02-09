@@ -1,0 +1,29 @@
+@import './../../styles/variables';
+
+.tile {
+  &-profile {
+    padding: 25px;
+    text-align: center;
+    background-color: $introduction-tile-bgcolor;
+
+    .avatar {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    .dot {
+      height: 4px;
+      width: 4px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;;
+    }
+  }
+}

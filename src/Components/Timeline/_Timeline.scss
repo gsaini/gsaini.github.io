@@ -1,0 +1,80 @@
+@import './../../styles/variables';
+
+.tile {
+    &-timeline {
+        display: flex;
+        flex-direction: column;
+        padding: 4px 0;
+        height: 400px;
+        background-color: $timeline-tile-bgcolor;
+
+        .dot {
+            height: 5px;
+            width: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+        h2 {
+            border-bottom: 4px solid #fff;
+
+            &.title {
+                border-bottom: 0;
+                text-align: center;
+            }
+        }
+
+        .vertical-line {
+            border-left: 4px dotted white;
+        }
+
+        .top {
+            text-align: right;
+
+            h2::after {
+                content: '';
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: #fff;
+                margin-bottom: -12px;
+                margin-right: -8px
+            }
+
+            p {
+                padding: 0 20px;
+            }
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100%;
+
+            h2::before {
+                content: '';
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: #fff;
+                margin-bottom: -12px;
+                margin-left: -8px
+            }
+
+            p {
+                padding: 0 20px;
+            }
+        }
+    }
+}

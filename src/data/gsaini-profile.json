@@ -1,0 +1,94 @@
+{
+    "name": "Gopal Saini",
+    "aboutMe": "Full stack engineer with 10+ years experience in information technology, specialising in the design of application architectures and creafting of user experience.",
+    "mobileNumber": "+1 551 200 4845",
+    "emailAddress": "gopal.saini.work@gmail.com",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1699577?s=400&u=96a4a04aaf87f52fcb51b729df9d80ef11be9537&v=4",
+    "tiles": 
+        {
+            "1": {
+                "title": "Carrier Timeline",
+                "bgColor": "#F7AF1F",
+                "timelines": [
+                    {
+                        "year": 2020,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    },
+                    {
+                        "year": 2019,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    }
+                ]
+            },
+            "2": {
+                "title": "",
+                "bgColor": "#4CB9AF",
+                "timelines": [
+                    {
+                        "year": 2018,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    },
+                    {
+                        "year": 2017,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    }
+                ]
+            },
+            "3": {
+                "title": "",
+                "bgColor": "#3D9FBD",
+                "timelines": [
+                    {
+                        "year": 2016,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    },
+                    {
+                        "year": 2015,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    }
+                ]
+            },
+            "4": {
+                "title": "",
+                "bgColor": "#5eb8cf",
+                "timelines": [
+                    {
+                        "year": 2014,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    },
+                    {
+                        "year": 2013,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    }
+                ]
+            },
+            "5": {
+                "title": "",
+                "bgColor": "#5eb8cf",
+                "timelines": [
+                    {
+                        "year": 2012,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    },
+                    {
+                        "year": 2011,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    }
+                ]
+            },
+            "6": {
+                "title": "",
+                "bgColor": "#5eb8cf",
+                "timelines": [
+                    {
+                        "year": 2010,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    },
+                    {
+                        "year": 2009,
+                        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, perspiciatis! Voluptatem repellat dignissimos dolorum sapiente dolores, doloremque dolor debitis reprehenderit, quia aspernatur iure nostrum deserunt maiores eveniet hic officia? Aliquid?"
+                    }
+                ]
+            }
+        }
+  }

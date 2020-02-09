@@ -1,0 +1,14 @@
+@import './variables';
+
+.app {
+  &-container {
+    width: 60%;
+    margin: auto;
+
+    .tile {
+      color: #fff;
+      margin: 25px;
+      border-radius: 5px;
+    }
+  }
+}
