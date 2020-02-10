@@ -9,12 +9,12 @@
     "tiles": 
         {
             "1": {
-                "title": "",
+                "title": "Career Timeline",
                 "bgColor": "#F7AF1F",
                 "timelines": [
                     {
                         "year": 2020,
-                        "designation": "Architect Experience Technology, Publicis Sapient (NYC, USA)",
+                        "designation": "(Aug 2019 - Present) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
                         "projects": [{
                             "name": "Goldman Sachs | DAS - Digital Advisor Solution",
                             "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Webpack, NodeJS, AngularJS",
@@ -23,7 +23,7 @@
                     },
                     {
                         "year": 2019,
-                        "designation": "Architect Experience Technology, Publicis Sapient (London)",
+                        "designation": "(Aug 2018 - June 2019) | Architect Experience Technology, Publicis Sapient (London)",
                         "projects": [{
                             "name": "Llloyds Banking Group | MIP - Machine Innovation Program",
                             "techStack": "HTML5, CSS3, ES6, NodeJS, DevOps - Docker, Kubernetes, Jenkins Declartive Pipelines, Sonarqube, Google Cloud Platform - App Engine, Compute Engine, GKE, Cloud Run.",
@@ -40,7 +40,7 @@
                         "year": 2018,
                         "designation": "Senior Associate, Publicis Sapient (London)",
                         "projects": [{
-                            "name": "Lloyds Banking Group - Open Banking",
+                            "name": "(March 2017 - Aug 2018) | Lloyds Banking Group - Open Banking",
                             "techStack": "HTML5, CSS3, ES6, ReactJS, Webpack, NodeJS - Loopback",
                             "description": "Lloyds Bank is the largest retail bank in Britain and has an extensive network of branches and ATM in England and Wales (as well as an arrangement for its customers to be serviced by Bank of Scotland branches in Scotland, Halifax branches in Northern Ireland and vice versa) and offers 24-hour telephone and online banking services. Open Banking is a change to UK regulation which gives you more control over your data and helps you bank the way you want to."
                         }]
@@ -49,7 +49,7 @@
                         "year": 2016,
                         "designation": "Senior Associate, Publicis Sapient (London)",
                         "projects": [{
-                            "name": "Lloyds Banking Group - Shared Documents",
+                            "name": "(June 2016 - March 2017) | Lloyds Banking Group - Shared Documents",
                             "techStack": "HTML5, CSS3, ES6, ReactJS, Webpack, NodeJS - Loopback",
                             "description": "Lloyds Bank is the largest retail bank in Britain and has an extensive network of branches and ATM in England and Wales (as well as an arrangement for its customers to be serviced by Bank of Scotland branches in Scotland, Halifax branches in Northern Ireland and vice versa) and offers 24-hour telephone and online banking services. As of 2012 it has 16 million personal customers and small business accounts. Shared component will create a communication between Colleague & Customer to create & get the invite to open their account online. By Using Shared Component, Colleague will create an invite for their customers to open the accounts online & customers will get the invite from colleague & know what all documents need to upload to open his/her account in the bank."
                         }]
