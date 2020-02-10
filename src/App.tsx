@@ -13,6 +13,10 @@ const App = () => {
   return (
     <div className="app-container">
       <Helmet>
+          <meta
+            name="description"
+            content={title}
+          />
           <link rel="icon" href={avatarUrl}/>
           <title>{title}</title>
       </Helmet>

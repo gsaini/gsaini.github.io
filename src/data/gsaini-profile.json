@@ -17,7 +17,7 @@
                         "designation": "(Aug 2019 - Present) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
                         "projects": [{
                             "name": "Goldman Sachs | DAS - Digital Advisor Solution",
-                            "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Webpack, NodeJS, AngularJS",
+                            "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Webpack, NodeJS, AngularJS, Storybook",
                             "description": "The Goldman Sachs Group, Inc., is an American multinational investment bank and financial services company headquartered in New York City. It offers services in investment management, securities, asset management, prime brokerage, and securities underwriting."
                         }]
                     },
