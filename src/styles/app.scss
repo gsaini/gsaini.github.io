@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins.scss";
 
 .app {
   &-container {
@@ -9,6 +10,10 @@
       color: #fff;
       margin: 25px;
       border-radius: 5px;
+
+      @include respond-to('medium') {
+        margin: 10px;
+      }
     }
 
     a {

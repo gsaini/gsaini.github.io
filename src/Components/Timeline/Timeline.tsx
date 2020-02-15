@@ -11,25 +11,25 @@ export const Timeline: React.FC<IProps> = tile => {
   // var randomColor = Math.floor(Math.random()*16777215).toString(16); // style={{ backgroundColor: `#${randomColor}` }}
 
   return (
-    <section className="tile tile-timeline" style={{ backgroundColor: tile.bgColor }}>
-      {tile.title ? <h2 className="title">{tile.title}</h2> : null}
-      <div className="wrapper">
+    <section className="tile tile-timeline">
+      {tile.title ? <h2 className="tile-title">{tile.title}</h2> : null}
+      <div className="tile-content">
         {tile.timelines.map((timeline: any, idx: number) => {
           return [
-            <div className={idx === 0 ? 'top' : 'bottom'}>
-              <h2>{timeline.year}</h2>
+            <div className={idx === 0 ? 'tile-card card-01' : 'tile-card card-02'} key={`tile-card-${timeline.year}`}  style={{ backgroundColor: tile.bgColor }}>
+              <div className="empty-container"></div>
+              <h3 className="card-header">{timeline.year}</h3>
               {timeline.designation ? <h4>{timeline.designation}</h4> : null}
               {
                 timeline.projects.map((project: any) => {
-                  return (<div className="project-wrapper">
+                  return (<div className="card-project" key={`card-project-${project.name}`}>
                     <p>{project.name}</p>
                     <i>{project.techStack}</i>
                     <p>{project.description}</p>
                   </div>)
                 })
               }
-            </div>,
-            idx === 0 ? <div className="vertical-line"></div> : null
+            </div>
           ];
         })}
       </div>

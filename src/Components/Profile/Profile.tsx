@@ -19,11 +19,13 @@ export const Profile: React.FC<IProps> = ({ name, aboutMe, emailAddress, mobileN
             <p><a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
             <p><a href={`tel:${mobileNumber}`}>{mobileNumber}</a></p>
             <p>{location}</p>
-            <span className="dot"></span>
-            <span className="dot"></span>
-            <span className="dot"></span>
-            <span className="dot"></span>
-            <span className="dot"></span>
+            <div>
+                <span className="dot"></span>
+                <span className="dot"></span>
+                <span className="dot"></span>
+                <span className="dot"></span>
+                <span className="dot"></span>
+            </div>
         </section>
     );
 };

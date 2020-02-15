@@ -1,103 +1,160 @@
-@import './../../styles/variables';
+@import "./../../styles/variables";
+@import "./../../styles/mixins";
+
+@mixin timeline-spot-content {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+}
 
 .tile {
-    &-timeline {
-        display: flex;
-        flex-direction: column;
-        padding: 4px 0;
-        min-height: 800px;
-        background-color: $timeline-tile-bgcolor;
+  &-title {
+    margin: 10px 0;
+    border-bottom: 0;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    color: gray;
+  }
 
-        .dot {
-            height: 5px;
-            width: 5px;
-            background-color: #fff;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 10px;
-        }
+  &-timeline {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+  }
 
-        .wrapper {
-            display: flex;
-            flex-direction: row;
-            flex: 1;
-        }
+  &-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
 
-        h2 {
-            border-bottom: 4px solid #fff;
-            margin: 10px 0;
+  &-card {
+    padding: 25px 0 25px;
+    width: 50%;
 
-            &.title {
-                border-bottom: 0;
-                text-align: center;
-            }
-        }
-
-        .vertical-line {
-            border-left: 4px dotted white;
-        }
-
-        .project-wrapper {
-            margin: 0 25px 25px;
-            border-bottom: 1px solid;
-            padding-bottom: 25px;
-
-            i {
-                display: block;
-            }
-
-            &:last-child {
-                border-bottom: 0;
-            }
-        }  
-
-        .top {
-            padding: 25px 0 25px;
-            text-align: right;
-            width: 50%;
-            
-            h2::after {
-                content: '';
-                display: inline-block;
-                width: 12px;
-                height: 12px;
-                border-radius: 50%;
-                background-color: #fff;
-                margin-bottom: -16px;
-                margin-right: -8px
-            }
-
-            p, h4, i {
-                margin: 10px 0;
-                padding: 0 20px;
-            }
-        }
-
-        .bottom {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            padding: 25px 0 25px;
-            text-align: left;
-            width: 49%;
-
-            h2::before {
-                content: '';
-                display: inline-block;
-                width: 12px;
-                height: 12px;
-                border-radius: 50%;
-                background-color: #fff;
-                margin-bottom: -15px;
-                margin-left: -8px;
-            }
-
-            p, h4, i {
-                margin: 10px 0;
-                padding: 0 20px;
-            }
-
-            
-        }
+    p,
+    i {
+      margin: 10px 0;
     }
+
+    h4 {
+      padding: 0 25px;
+      margin: 10px 0;
+    }
+  }
+
+  .card {
+    &-header {
+      border-bottom: 4px solid #fff;
+    }
+
+    &-project {
+      margin: 0 25px 25px;
+      border-bottom: 1px solid;
+      padding-bottom: 25px;
+
+      i {
+        display: block;
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    &-01 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      text-align: right;
+      border-right: 4px dotted #fff;
+      border-radius: 5px 0 0 5px;
+
+      h3 {
+        &::after {
+          @include timeline-spot-content;
+
+          margin-bottom: -12px;
+          margin-right: -8px;
+        }
+      }
+    }
+
+    &-02 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      text-align: left;
+      border-radius: 0 5px 5px 0;
+
+
+      h3 {
+        &::before {
+          @include timeline-spot-content;
+
+          margin-bottom: -12px;
+          margin-left: -8px;
+        }
+      }
+
+      .empty-container {
+        height: 80px;
+      }
+    }
+  }
+
+  &-separator {
+    border-left: 4px dotted white;
+  }
+
+  @include respond-to("medium") {
+    &-content {
+      flex-direction: column;
+    }
+
+    &-card {
+      width: 100%;
+    }
+
+    .card {
+      &-header {
+        text-align: center;
+      }
+
+      &-project {
+        margin: 0 25px;
+      }
+
+      &-01 {
+        text-align: justify;
+        border-right: 0;
+        margin-bottom: 25px;
+        border-radius: 5px;
+        h3 {
+          &::after {
+            display: none;
+          }
+        }
+      }
+
+      &-02 {
+        text-align: justify;
+        border-radius: 5px;
+
+        h3 {
+          &::before {
+            display: none;
+          }
+        }
+
+        .empty-container {
+          display: none;
+        }
+      }
+    }
+  }
 }
