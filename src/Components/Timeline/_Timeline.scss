@@ -1,7 +1,7 @@
 @import "./../../styles/variables";
 @import "./../../styles/mixins";
 
-@mixin timeline-spot-content ($bgColor){
+@mixin timeline-spot-content($bgColor) {
   content: "";
   display: inline-block;
   width: 6px;
@@ -21,7 +21,6 @@
     border-radius: 5px;
     text-transform: uppercase;
     background-color: $timeline-tile-bgcolor;
-
   }
 
   &-timeline {

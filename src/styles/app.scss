@@ -10,19 +10,10 @@
       color: #fff;
       margin: 25px;
       border-radius: 5px;
-
-      @include respond-to('medium') {
-        margin: 10px;
-      }
     }
 
-    a {
-      color: #fff;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
+    @include respond-to("medium") {
+      width: 100%;
     }
   }
 }

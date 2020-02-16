@@ -30,6 +30,15 @@
       letter-spacing: 3px;
       text-align: justify;
     }
+    
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 
     p {
       word-break: break-word;
