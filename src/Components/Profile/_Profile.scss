@@ -21,6 +21,10 @@
         border-radius: 50%;
     }
 
+    .site-links {
+      padding: 10px 0;
+    }
+
     h1 {
       text-transform: uppercase;
       letter-spacing: 3px;
@@ -31,13 +35,9 @@
       word-break: break-word;
     }
 
-    .dot {
-      height: 4px;
-      width: 4px;
-      background-color: #fff;
-      border-radius: 50%;
-      display: inline-block;
-      margin-right: 10px;;
+    i {
+      font-size: 2em;
+      margin: 0 10px;
     }
   }
 }

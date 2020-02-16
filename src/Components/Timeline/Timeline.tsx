@@ -16,7 +16,7 @@ export const Timeline: React.FC<IProps> = tile => {
       <div className="tile-content">
         {tile.timelines.map((timeline: any, idx: number) => {
           return [
-            <div className={idx === 0 ? 'tile-card card-01' : 'tile-card card-02'} key={`tile-card-${timeline.year}`}  style={{ backgroundColor: tile.bgColor }}>
+            <div className={idx === 0 ? 'tile-card card-01' : 'tile-card card-02'} key={`tile-card-${timeline.year}`}>
               <div className="empty-container"></div>
               <h3 className="card-header">{timeline.year}</h3>
               {timeline.designation ? <h4>{timeline.designation}</h4> : null}

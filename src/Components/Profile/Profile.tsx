@@ -19,12 +19,12 @@ export const Profile: React.FC<IProps> = ({ name, aboutMe, emailAddress, mobileN
             <p><a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
             <p><a href={`tel:${mobileNumber}`}>{mobileNumber}</a></p>
             <p>{location}</p>
-            <div>
-                <span className="dot"></span>
-                <span className="dot"></span>
-                <span className="dot"></span>
-                <span className="dot"></span>
-                <span className="dot"></span>
+            <div className="site-links">
+                <a href="https://github.com/gsaini" target="_blank"><i className="fab fa-github"></i></a>
+                <a href="https://twitter.com/saini_gopal" target="_blank"><i className="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/gsaini01/" target="_blank"><i className="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/gops.saini" target="_blank"><i className="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/gsaini__/" target="_blank"><i className="fab fa-instagram"></i></a>
             </div>
         </section>
     );
