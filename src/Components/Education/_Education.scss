@@ -1,0 +1,53 @@
+@import './../../styles/variables';
+@import './../../styles/mixins';
+
+.tile {
+  &-education {
+    border-radius: 5px;
+    background-image: $education-tile-bgColor;
+    .tile {
+      &-content {
+        
+        flex-direction: column;
+      }
+      &-card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        background-color: transparent;
+
+        .card {
+          &-education {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex: 1;
+            border-bottom: 1px solid;
+            padding: 25px;
+          }
+        }
+
+        h3, 
+        p {
+          margin: 0 0 10px 0;
+          padding: 0;
+        }
+
+        i {
+          margin: 25px;
+          height: 50px;
+          width: 50px;
+          font-size: 3em;
+          text-align: center;
+
+          @include respond-to('medium') {
+            font-size: 2em;
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+}
