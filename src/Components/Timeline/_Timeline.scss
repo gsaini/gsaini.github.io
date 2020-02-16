@@ -49,9 +49,21 @@ $colors: #e94e36, #F7AF1F, #4CB9AF, #BF407F, #009688, #b73816, #d46685, #006F89,
       .card {
         &-01 {
           background-color: nth($colors, $i);
+
+          h3 {
+            &::after {
+              display: none;
+            }
+          }
         }
         &-02 {
           background-color: nth($colors, (length($colors) + 1 - $i));
+
+          h3 {
+            &::before {
+              display: none;
+            }
+          }
         }
       }
     }
