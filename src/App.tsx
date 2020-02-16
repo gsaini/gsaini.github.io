@@ -7,8 +7,8 @@ import PROFILE from './data/gsaini-profile.json'
 import "./styles/app.scss";
 
 const App = () => {
-  const { title, name, aboutMe, emailAddress, mobileNumber, avatarUrl, location, tiles } = PROFILE;
-  const profileDetails = { name, aboutMe, emailAddress, mobileNumber, avatarUrl, location };
+  const { title, company, designation, name, aboutMe, emailAddress, mobileNumber, avatarUrl, location, tiles } = PROFILE;
+  const profileDetails = { name, company, designation, aboutMe, emailAddress, mobileNumber, avatarUrl, location };
 
   return (
     <div className="app-container">

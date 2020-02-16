@@ -23,6 +23,11 @@
 
     .site-links {
       padding: 10px 0;
+
+      i {
+        font-size: 2em;
+        margin: 0 10px;
+      }
     }
 
     h1 {
@@ -42,11 +47,6 @@
 
     p {
       word-break: break-word;
-    }
-
-    i {
-      font-size: 2em;
-      margin: 0 10px;
     }
   }
 }

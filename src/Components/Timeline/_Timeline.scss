@@ -1,6 +1,8 @@
 @import "./../../styles/variables";
 @import "./../../styles/mixins";
 
+$colors: #e94e36, #F7AF1F, #4CB9AF, #BF407F, #009688, #b73816, #d46685, #006F89, #546f51, #FF732F, #1bb7c3, #c09b6d, #ba4f5d, #8b1fca, #c5ba02, #b73816, #d46685, #006F89, #1bb7c3;
+
 @mixin timeline-spot-content($bgColor) {
   content: "";
   display: inline-block;
@@ -13,7 +15,51 @@
   margin-bottom: -14px;
 }
 
+@mixin timeline-background-color {
+  @for $i from 2 through length($colors) {
+    &:nth-child(#{$i}) {
+      $bgColor: nth($colors, $i);
+      .card {
+        &-01 {
+          background-color: $bgColor;
+
+          h3 {
+            &::after {
+              @include timeline-spot-content($bgColor);
+            }
+          }
+        }
+        &-02 {
+          background-color: $bgColor;
+
+          h3 {
+            &::before {
+              @include timeline-spot-content($bgColor);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin timeline-tile-background-color {
+  @for $i from 2 through length($colors) {
+    &:nth-child(#{$i}) {
+      .card {
+        &-01 {
+          background-color: nth($colors, $i);
+        }
+        &-02 {
+          background-color: nth($colors, (length($colors) + 1 - $i));
+        }
+      }
+    }
+  }
+}
+
 .tile {
+  @include timeline-background-color;
   &-title {
     margin: 10px 0;
     border-bottom: 0;
@@ -112,6 +158,7 @@
   }
 
   @include respond-to("medium") {
+    @include timeline-tile-background-color;
     &-content {
       flex-direction: column;
     }

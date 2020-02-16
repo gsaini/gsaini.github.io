@@ -25,7 +25,7 @@ export const Timeline: React.FC<IProps> = tile => {
                   return (<div className="card-project" key={`card-project-${project.name}`}>
                     <p>{project.name}</p>
                     <i>{project.techStack}</i>
-                    <p>{project.description}</p>
+                    <div dangerouslySetInnerHTML={ { __html: project.description } }></div>
                   </div>)
                 })
               }
