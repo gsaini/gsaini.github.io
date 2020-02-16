@@ -19,7 +19,7 @@ export const Education: React.FC<IProps> = ({ educations }) => {
                 {
                     educations.map(({ iconCls, year, institute, stream }) => {
                         return (
-                            <div className="tile-card">
+                            <div className="tile-card" key={`tile-card-${year}-${stream}`}>
                                 <i className={iconCls}></i>
                                 <div className="card-education">
                                     <h3>{institute}</h3>
