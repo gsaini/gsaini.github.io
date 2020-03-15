@@ -12,7 +12,7 @@ export const Timeline: React.FC<IProps> = tile => {
 
   return (
     <section className="tile tile-timeline">
-      {tile.title ? <h2 className="tile-title">{tile.title}</h2> : null}
+      {tile.title ? <h3 className="tile-title">{tile.title}</h3> : null}
       <div className="tile-content">
         {tile.timelines.map((timeline: any, idx: number) => {
           return [

@@ -140,5 +140,29 @@
         }
       ]
     }
-  }
+  },
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "Javascript",
+    "Typescript",
+    "ES6",
+    "ReactJS",
+    "AngularJS",
+    "Sencha - ExtJS",
+    "GraphQL",
+    "Webpack",
+    "NodeJS",
+    "Loopback, Express",
+    "MongoDB",
+    "Gitlab",
+    "Google Cloud Platform (GCP - Core infrastructure)",
+    "Jenkins",
+    "Sonar",
+    "Docker",
+    "Kubernetes",
+    "C#.NET",
+    "Crystal Reports"
+  ],
+  "certificates":[]
 }

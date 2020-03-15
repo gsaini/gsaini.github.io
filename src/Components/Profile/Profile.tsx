@@ -17,8 +17,8 @@ export const Profile: React.FC<IProps> = ({ name, designation, company, aboutMe,
         <section className="tile tile-profile">
             <img className="avatar" alt={name} title={name} src={avatarUrl} />
             <h1>{name}</h1>
-    <i>{designation} | {company}</i>
-            <h4 dangerouslySetInnerHTML={ { __html: aboutMe } }></h4>
+            <i>{designation} | {company}</i>
+            <h4 dangerouslySetInnerHTML={{ __html: aboutMe }}></h4>
             <p><a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
             <p><a href={`tel:${mobileNumber}`}>{mobileNumber}</a></p>
             <p>{location}</p>
