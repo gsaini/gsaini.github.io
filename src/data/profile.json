@@ -43,7 +43,7 @@
           "designation": "(Aug 2018 - June 2019) | Architect Experience Technology, Publicis Sapient (London)",
           "projects": [
             {
-              "name": "Llloyds Banking Group | MIP - Machine Intelligence Program",
+              "name": "Lloyds Banking Group | MIP - Machine Intelligence Program",
               "techStack": "HTML5, CSS3, ES6, NodeJS, DevOps - Docker, Kubernetes, Jenkins Declartive Pipelines, Sonarqube, Google Cloud Platform - App Engine, Compute Engine, GKE, Cloud Run.",
               "description": "Lloyds Bank is the largest retail bank in Britain and has an extensive network of branches and ATM in England and Wales (as well as an arrangement for its customers to be serviced by Bank of Scotland branches in Scotland, Halifax branches in Northern Ireland and vice versa) and offers 24-hour telephone and online banking services. <br><br>Machine intelligence programme is growing bank's data and artificial intelligence capabilities. We developed advanced propositions, generated and applied insights that allowed bank to help their customers and colleagues."
             }
