@@ -1,22 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1fa99be.chunk.css",
-    "main.js": "/static/js/main.d53ad847.chunk.js",
-    "main.js.map": "/static/js/main.d53ad847.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fdf9dd77.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fdf9dd77.js.map",
-    "static/js/2.c1de8bbe.chunk.js": "/static/js/2.c1de8bbe.chunk.js",
-    "static/js/2.c1de8bbe.chunk.js.map": "/static/js/2.c1de8bbe.chunk.js.map",
+    "main.css": "/static/css/main.cefd74a7.css",
+    "main.js": "/static/js/main.4eeeb21a.js",
+    "static/media/credlyDashboard.png": "/static/media/credlyDashboard.50bdb24805ece2f03e96.png",
     "index.html": "/index.html",
-    "precache-manifest.c774ce8877c8d34075d1e67eb20bd1b9.js": "/precache-manifest.c774ce8877c8d34075d1e67eb20bd1b9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1fa99be.chunk.css.map": "/static/css/main.d1fa99be.chunk.css.map",
-    "static/js/2.c1de8bbe.chunk.js.LICENSE.txt": "/static/js/2.c1de8bbe.chunk.js.LICENSE.txt"
+    "main.cefd74a7.css.map": "/static/css/main.cefd74a7.css.map",
+    "main.4eeeb21a.js.map": "/static/js/main.4eeeb21a.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.fdf9dd77.js",
-    "static/js/2.c1de8bbe.chunk.js",
-    "static/css/main.d1fa99be.chunk.css",
-    "static/js/main.d53ad847.chunk.js"
+    "static/css/main.cefd74a7.css",
+    "static/js/main.4eeeb21a.js"
   ]
 }
