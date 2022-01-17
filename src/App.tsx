@@ -1,10 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Timeline from './Components/Timeline';
-import Profile from './Components/Profile';
-import Skills from './Components/Skills';
-import Education from './Components/Education';
-import Footer from './Components/Footer';
+import { Certificates, Education, Footer, Profile, Skills, Timeline } from './Components';
 import PROFILE from './data/profile.json'
 import "./styles/app.scss";
 
@@ -28,6 +24,7 @@ const App = () => {
       }
       <Skills skills={skills} />
       <Education {...{ educations: educations }} />
+      <Certificates/>
       <Footer />
     </div>
 

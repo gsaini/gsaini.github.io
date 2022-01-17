@@ -1,0 +1,18 @@
+@import "./../../styles/variables";
+@import "./../../styles/mixins";
+
+.tile {
+  &-certificates {
+    &-title {
+      background-color: #2e2e2e;
+      border-radius: 5px;
+      text-transform: uppercase;
+      padding: 10px;
+    }
+
+    h3 {
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+  }
+}
