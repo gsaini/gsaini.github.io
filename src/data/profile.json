@@ -23,13 +23,34 @@
     }
   ],
   "tiles": {
-    "1": {
+    "0": {
       "title": "Career Timeline",
       "bgColor": "#F7AF1F",
       "timelines": [
         {
+          "designation": "",
+          "projects": []
+        },
+        {
+          "year": 2022,
+          "designation": "(Feb 2020 - Present) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
+          "projects": [
+            {
+              "name": "Goldman Sachs | Ayco - Workplace Financial Planning",
+              "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Apollo GraphQL, Webpack, NodeJS, AngularJS, Storybook, Testing-Library, AEM, Elastic Search",
+              "description": "Goldman Sachs Ayco's - Workplace Financial Planning empowers the entire workforce to achieve financial goals and navigate life events through personalized one-on-one guidance, digital tools and workplace solutions."
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "title": "",
+      "bgColor": "#F7AF1F",
+      "timelines": [
+        {
           "year": 2020,
-          "designation": "(Aug 2019 - Present) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
+          "designation": "(Aug 2019 - Feb 2020) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
           "projects": [
             {
               "name": "Goldman Sachs | DAS - Digital Advisor Solution",
@@ -163,7 +184,8 @@
     "Docker",
     "Kubernetes",
     "C#.NET",
-    "Crystal Reports"
+    "Crystal Reports",
+    "Elastic Search"
   ],
   "certificates": []
 }

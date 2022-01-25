@@ -4,7 +4,7 @@ import "./_Timeline.scss";
 interface IProps {
   title: string
   bgColor: string
-  timelines: Array<{ year: number; designation: string, projects: Array<{ name: string, techStack: string, description: string }> }>;
+  timelines: Array<{ year?: number; designation: string, projects: Array<{ name: string, techStack: string, description: string }> }>;
 }
 
 export const Timeline: React.FC<IProps> = tile => {
@@ -18,7 +18,7 @@ export const Timeline: React.FC<IProps> = tile => {
           return [
             <div className={idx === 0 ? 'tile-card card-01' : 'tile-card card-02'} key={`tile-card-${timeline.year}`}>
               <div className="empty-container"></div>
-              <h3 className="card-header">{timeline.year}</h3>
+              { timeline.year ? <h3 className="card-header">{timeline.year}</h3> : null }
               {timeline.designation ? <h4>{timeline.designation}</h4> : null}
               {
                 timeline.projects.map((project: any) => {
