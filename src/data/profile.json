@@ -163,7 +163,6 @@
     }
   },
   "skills": [
-    "Amazon Web Services (aws)",
     "HTML5",
     "CSS3",
     "Javascript",
@@ -183,9 +182,12 @@
     "Sonar",
     "Docker",
     "Kubernetes",
+    "Amazon Web Services (aws)",
+    "Micro frontends",
+    "mono repo",
+    "Elastic Search",
     "C#.NET",
-    "Crystal Reports",
-    "Elastic Search"
+    "Crystal Reports"
   ],
   "certificates": []
 }
