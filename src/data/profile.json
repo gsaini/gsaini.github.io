@@ -1,9 +1,9 @@
 {
   "name": "Gopal Saini",
-  "designation": "Architect/Specialist Experience Technology",
+  "designation": "Senior Architect/Specialist Experience Technology",
   "company": "Publicis Sapient",
   "title": "Welcome to Gopal Saini's Homepage!",
-  "aboutMe": "Full stack engineer with 12+ years experience in information technology, specialising in the design of application architectures and crafting of user experience.",
+  "aboutMe": "Full stack engineer with 14+ years experience in information technology, specialising in the design of application architectures and crafting of user experience.",
   "mobileNumber": "+1 551 200 4845",
   "emailAddress": "gopal.saini.work@gmail.com",
   "location": "New York City (NYC), USA",
@@ -28,16 +28,21 @@
       "bgColor": "#F7AF1F",
       "timelines": [
         {
-          "designation": "",
-          "projects": []
+          "year": 2023,
+          "designation": "(Jan 2023 - Present) | Senior Architect Experience Technology, Publicis Sapient (NYC, USA)",
+          "projects": [{
+            "name": "Goldman Sachs | Retirement Readiness Program",
+            "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Nx - Mono Repo Tool, Webpack5 - Module Federation, Java, Storybook, Testing-Library, AEM, Adobe Analytics, Mongo DB",
+            "description": "Goldman Sachs's - A personalized interactive retirement readiness program to help their customers to make right retirement decisions."
+          }]
         },
         {
           "year": 2022,
-          "designation": "(Feb 2020 - Present) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
+          "designation": "(Feb 2020 - Dec 2022) | Architect Experience Technology, Publicis Sapient (NYC, USA)",
           "projects": [
             {
               "name": "Goldman Sachs | Ayco - Workplace Financial Planning",
-              "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Apollo GraphQL, Webpack, NodeJS, AngularJS, Storybook, Testing-Library, AEM, Elastic Search",
+              "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Apollo GraphQL, Nx - Mono Repo Tool, Webpack5 - Module Federation, NodeJS, AngularJS, Storybook, Testing-Library, AEM, Elastic Search",
               "description": "Goldman Sachs Ayco's - Workplace Financial Planning empowers the entire workforce to achieve financial goals and navigate life events through personalized one-on-one guidance, digital tools and workplace solutions."
             }
           ]
