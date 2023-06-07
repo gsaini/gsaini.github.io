@@ -1,7 +1,7 @@
 import * as React from 'react'
 import './_Profile.scss'
 
-interface IProps {
+export const Profile = ({ name, designation, company, aboutMe, emailAddress, mobileNumber, avatarUrl, location }: {
     name: string
     company: string
     designation: string
@@ -10,9 +10,7 @@ interface IProps {
     emailAddress: string
     mobileNumber: string
     location: string
-}
-
-export const Profile: React.FC<IProps> = ({ name, designation, company, aboutMe, emailAddress, mobileNumber, avatarUrl, location }) => {
+}) => {
     return (
         <section className="tile tile-profile">
             <img className="avatar" alt={name} title={name} src={avatarUrl} />

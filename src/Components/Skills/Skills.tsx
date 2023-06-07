@@ -1,14 +1,10 @@
 import * as React from 'react';
 import './_Skills.scss';
 
-interface IProps {
-    skills: Array<string>
-}
-
-export const Skills: React.FC<IProps> = ({ skills }) => {
+export const Skills = ({ skills }: { skills: Array<string> }) => {
     return (
         <section className="tile tile-skills">
-            <h3>Skills & Expertise</h3>
+            <h3>Skills & Expertise</h3> 
             <div className="tags">
                 {
                     skills.map((skill, idx) => {
