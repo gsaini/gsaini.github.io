@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.365f0e63.css",
-    "main.js": "/static/js/main.1f17630e.js",
+    "main.js": "/static/js/main.986745f4.js",
     "static/media/credlyDashboard.png": "/static/media/credlyDashboard.e78bd187b846389c519a.png",
     "index.html": "/index.html",
     "main.365f0e63.css.map": "/static/css/main.365f0e63.css.map",
-    "main.1f17630e.js.map": "/static/js/main.1f17630e.js.map"
+    "main.986745f4.js.map": "/static/js/main.986745f4.js.map"
   },
   "entrypoints": [
     "static/css/main.365f0e63.css",
-    "static/js/main.1f17630e.js"
+    "static/js/main.986745f4.js"
   ]
 }
