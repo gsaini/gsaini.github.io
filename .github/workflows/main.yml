@@ -14,12 +14,17 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
+
       - name: Install dependencies
         run: yarn install
+
       - name: Build the website
         run: yarn build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          cname: gopalsaini.co.in
+          commit_message: "Deploy to my custom domain: ${{ github.sha }}"
