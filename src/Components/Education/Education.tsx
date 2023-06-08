@@ -1,18 +1,14 @@
 import * as React from 'react'
 import './_Education.scss'
 
-interface EducationState {
-    iconCls: string
-    year: string
-    institute: string
-    stream: string
-}
-
-interface IProps {
-    educations: Array<EducationState>
-}
-
-export const Education: React.FC<IProps> = ({ educations }) => {
+export const Education = ({ educations }: {
+    educations: Array<{
+        iconCls: string
+        year: string
+        institute: string
+        stream: string
+    }>
+}) => {
     return (
         <section className="tile tile-education">
             <div className="tile-content">

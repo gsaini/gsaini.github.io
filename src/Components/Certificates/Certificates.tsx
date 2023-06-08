@@ -2,10 +2,8 @@ import * as React from 'react';
 import credlyDashboard from './credlyDashboard.png';
 import './_Certificates.scss';
 
-interface IProps {
-}
 
-export const Certificates: React.FC<IProps> = () => {
+export const Certificates: React.FC = () => {
     return (
         <section className="tile tile-certificates">
             <h3 className="tile-certificates-title">My AWS Certificates</h3>
