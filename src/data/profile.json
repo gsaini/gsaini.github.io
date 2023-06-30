@@ -32,7 +32,7 @@
           "designation": "(Jan 2023 - Present) | Senior Architect Experience Technology, Publicis Sapient (NYC, USA)",
           "projects": [{
             "name": "Goldman Sachs | Retirement Readiness Program",
-            "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Nx - Mono Repo Tool, Webpack5 - Module Federation, Java, Storybook, Testing-Library, AEM, Adobe Analytics, Mongo DB",
+            "techStack": "HTML5, CSS3, ES6, Typescript, ReactJS, Nx - Mono Repo Tool, Webpack5 - Module Federation (Micro Frontends), Kong API Gateway, Java, Storybook, Testing-Library, AEM, Adobe Analytics, Mongo DB",
             "description": "Goldman Sachs's - A personalized interactive retirement readiness program to help their customers to make right retirement decisions."
           }]
         },
