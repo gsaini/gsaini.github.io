@@ -382,9 +382,38 @@ footer {
   border-top: 1px solid rgba(0, 242, 255, 0.2);
 }
 
-footer p {
+.footer-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-line {
+  height: 1px;
+  background: rgba(0, 242, 255, 0.3);
+  flex: 1;
+  max-width: 150px;
+}
+
+.footer-name {
+  color: var(--primary);
+  font-weight: 600;
+  margin: 0 2rem;
+  font-size: 1.1rem;
+}
+
+.footer-tagline {
   color: var(--gray);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer-copyright {
+  color: var(--gray);
+  font-size: 0.8rem;
   margin-top: 1rem;
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
