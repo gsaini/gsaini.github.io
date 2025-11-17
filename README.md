@@ -41,14 +41,13 @@ gsaini.github.io/
 ├── .github/
 │   └── workflows/
 │       └── main.yml          # GitHub Actions deployment
-├── public/
-│   └── index.html           # Main HTML file
 ├── src/
-│   ├── styles.css           # All CSS styles
-│   └── script.js            # JavaScript functionality
+│   └── styles.css           # All CSS styles
+├── .gitignore               # Git ignore file
 ├── biome.json               # Biome configuration
-├── vite.config.js           # Vite configuration
+├── index.html               # Main HTML file
 ├── package.json             # Dependencies and scripts
+├── pnpm-lock.yaml           # pnpm lock file
 └── README.md                # This file
 ```
 
@@ -153,6 +152,4 @@ pnpm build
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-**Built with ❤️ by Gopal Saini**
+## Built with ❤️ & empowered by AI
