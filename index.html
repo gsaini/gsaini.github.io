@@ -278,6 +278,9 @@
         <p class="footer-copyright">© <span id="year"></span> • All Rights Reserved</p>
     </footer>
 
-    <script src="./src/script.js"></script>
+    <script>
+        // Set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
