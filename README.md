@@ -1,46 +1,151 @@
-[![GitHub Pages](https://github.com/gsaini/gsaini.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/gsaini/gsaini.github.io/actions/workflows/main.yml)
+# Gopal Saini - Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I'm a **Full Stack Architect** and **AI/ML Engineer** with 15+ years of experience in building scalable web applications and intelligent systems. Currently engineering AI-driven solutions at Goldman Sachs.
 
-## Available Scripts
+## 🎓 Education
 
-In the project directory, you can run:
+- **Post Graduate in AI & ML** - Comprehensive program covering machine learning, deep learning, NLP, and computer vision
+- 15+ years of hands-on experience in enterprise software development
 
-### `yarn start`
+## 🚀 Core Expertise
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: React, TypeScript, Next.js, Modern CSS
+- **Backend**: Node.js, Python, Enterprise APIs
+- **Cloud**: AWS, Google Cloud Platform, Azure
+- **AI/ML**: TensorFlow, PyTorch, Scikit-learn, Computer Vision, NLP
+- **DevOps**: Docker, Kubernetes, CI/CD Pipelines
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `yarn test`
+This portfolio is built with modern web technologies:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Build Tool**: Vite (Rolldown)
+- **Styling**: Vanilla CSS with CSS Custom Properties
+- **JavaScript**: ES6+ Vanilla JavaScript
+- **Linting**: Biome
+- **Package Manager**: pnpm
+- **Deployment**: GitHub Pages with GitHub Actions
+- **Domain**: Custom domain (gopalsaini.co.in)
 
-### `yarn build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+gsaini.github.io/
+├── .github/
+│   └── workflows/
+│       └── main.yml          # GitHub Actions deployment
+├── public/
+│   └── index.html           # Main HTML file
+├── src/
+│   ├── styles.css           # All CSS styles
+│   └── script.js            # JavaScript functionality
+├── biome.json               # Biome configuration
+├── vite.config.js           # Vite configuration
+├── package.json             # Dependencies and scripts
+└── README.md                # This file
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `yarn eject`
+- Node.js 24.x or higher
+- pnpm (recommended) or npm
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```bash
+   git clone https://github.com/gsaini/gsaini.github.io.git
+   cd gsaini.github.io
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. **Install dependencies**
 
-## Learn More
+   ```bash
+   pnpm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Start development server**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   pnpm dev
+   ```
+
+4. **Open in browser**
+
+   ```
+   http://localhost:5173
+   ```
+
+## 📜 Available Scripts
+
+| Script | Description |
+|--------|-------------|
+| `pnpm dev` | Start development server |
+| `pnpm build` | Build for production |
+| `pnpm preview` | Preview production build |
+| `pnpm lint` | Run Biome linter |
+| `pnpm lint:fix` | Fix linting issues |
+| `pnpm format` | Format code with Biome |
+| `pnpm check` | Run linting and formatting checks |
+
+## 🚀 Deployment
+
+The site is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the `source` branch.
+
+### Deployment Process
+
+1. Code is linted and formatted using Biome
+2. Site is built using Vite
+3. Built files are deployed to GitHub Pages
+4. Custom domain (gopalsaini.co.in) is configured
+
+### Manual Deployment
+
+```bash
+pnpm build
+# Deploy the dist/ folder to your hosting provider
+```
+
+## 🎨 Features
+
+- **Responsive Design**: Mobile-first approach with modern CSS Grid and Flexbox
+- **Performance Optimized**: Fast loading with optimized assets
+- **SEO Friendly**: Proper meta tags, structured data, and semantic HTML
+- **Accessibility**: WCAG compliant with proper ARIA labels
+- **Modern Animations**: Smooth CSS animations and transitions
+- **Dark Theme**: Elegant dark color scheme with neon accents
+
+## 🔧 Development
+
+### Code Quality
+
+- **Biome**: Used for linting and formatting
+- **Modern CSS**: CSS Custom Properties, Grid, Flexbox
+- **Semantic HTML**: Proper HTML5 structure
+- **Performance**: Optimized images and minimal JavaScript
+
+### Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 📞 Contact
+
+- **Email**: [gopal.saini.work@gmail.com](mailto:gopal.saini.work@gmail.com)
+- **Phone**: [+1 551 200 4845](tel:+15512004845)
+- **LinkedIn**: [linkedin.com/in/gopal-saini](https://www.linkedin.com/in/gopal-saini)
+- **GitHub**: [github.com/gsaini](https://github.com/gsaini)
+- **Credly**: [credly.com/users/gsaini/badges](https://www.credly.com/users/gsaini/badges)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ by Gopal Saini**

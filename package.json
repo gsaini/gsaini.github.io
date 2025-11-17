@@ -1,61 +1,24 @@
 {
   "name": "gsaini.github.io",
-  "homepage": "https://gsaini.github.io/",
-  "version": "0.1.0",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gsaini/gsaini.github.io.git"
-  },
-  "dependencies": {
-    "@microsoft/eslint-formatter-sarif": "2.1.7",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^17.0.9",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
-    "node-sass": "^7.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-scripts": "^5.0.0",
-    "typescript": "~4.5.4"
-  },
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "biome lint src/",
+    "lint:fix": "biome lint --write src/",
+    "format": "biome format --write src/",
+    "check": "biome check src/"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.1",
-    "@babel/eslint-parser": "^7.21.8",
-    "@babel/preset-env": "^7.22.4",
-    "@babel/preset-react": "^7.22.3",
-    "@babel/preset-typescript": "^7.21.5",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.42.0",
-    "eslint-plugin-react": "^7.32.2",
-    "gh-pages": "^3.2.3",
-    "prettier": "2.5.1"
+    "vite": "npm:rolldown-vite@7.2.2",
+    "@biomejs/biome": "^1.9.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@7.2.2"
+    }
   }
 }
