@@ -98,7 +98,7 @@ class NeuralNetwork {
             // Draw particle
             this.ctx.beginPath();
             this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-            this.ctx.fillStyle = `rgba(0, 242, 255, 0.5)`; // Semi-transparent particles
+            this.ctx.fillStyle = 'rgba(0, 242, 255, 0.5)'; // Semi-transparent particles
             this.ctx.fill();
 
             // Connect particles
