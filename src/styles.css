@@ -51,7 +51,6 @@ body {
 }
 
 @keyframes gridFloat {
-
   0%,
   100% {
     transform: translate(0, 0) scale(1);
@@ -123,7 +122,6 @@ section {
 }
 
 @keyframes bounce {
-
   0%,
   100% {
     transform: translateY(0);
@@ -417,8 +415,6 @@ footer {
   margin-top: 1rem;
   opacity: 0.8;
 }
-
-
 
 @media (max-width: 768px) {
   section {
