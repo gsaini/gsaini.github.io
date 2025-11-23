@@ -1,13 +1,41 @@
+/**
+ * NeuralNetwork class creates an animated particle system that simulates a neural network
+ * with interconnected nodes and animated pulses traveling between them.
+ * Particles move with physics-based motion and respond to mouse interaction.
+ */
 class NeuralNetwork {
+  /**
+   * Creates a new NeuralNetwork instance and initializes the animation.
+   * Sets up canvas, particles, event listeners, and starts the animation loop.
+   * 
+   * @constructor
+   */
   constructor() {
+    /** @type {HTMLCanvasElement} Canvas element for rendering the neural network */
     this.canvas = document.getElementById('neural-network-bg');
+
+    /** @type {CanvasRenderingContext2D} 2D rendering context for drawing */
     this.ctx = this.canvas.getContext('2d');
+
+    /** @type {Array<Particle>} Array of particle objects representing network nodes */
     this.particles = [];
-    this.pulses = []; // Array to store active pulses
+
+    /** @type {Array<Pulse>} Array of active pulse objects traveling between particles */
+    this.pulses = [];
+
+    /** @type {number} Number of particles to render (calculated based on canvas area) */
     this.particleCount = 100;
+
+    /** @type {number} Maximum distance for drawing connections between particles (in pixels) */
     this.connectionDistance = 150;
+
+    /** @type {number} Maximum distance for mouse interaction with particles (in pixels) */
     this.mouseDistance = 200;
 
+    /** 
+     * @type {{x: number|null, y: number|null}} 
+     * Current mouse position, null when mouse is outside canvas
+     */
     this.mouse = {
       x: null,
       y: null,
@@ -21,17 +49,44 @@ class NeuralNetwork {
     window.addEventListener('mouseout', () => this.handleMouseOut());
   }
 
+  /**
+   * Initializes the neural network by setting canvas size and creating particles.
+   * Called once during construction.
+   * 
+   * @returns {void}
+   */
   init() {
     this.resize();
     this.createParticles();
   }
 
+  /**
+   * Handles window resize events by adjusting canvas dimensions and recreating particles
+   * to maintain consistent particle density across different screen sizes.
+   * 
+   * @returns {void}
+   */
   resize() {
     this.canvas.width = window.innerWidth;
     this.canvas.height = window.innerHeight;
     this.createParticles(); // Recreate particles on resize to maintain density
   }
 
+  /**
+   * Creates particles with random positions and velocities.
+   * Particle count is calculated based on canvas area to maintain consistent density.
+   * Each particle has position (x, y), velocity (vx, vy), size, and color.
+   * 
+   * @typedef {Object} Particle
+   * @property {number} x - X coordinate position
+   * @property {number} y - Y coordinate position
+   * @property {number} vx - X velocity component
+   * @property {number} vy - Y velocity component
+   * @property {number} size - Particle radius
+   * @property {string} color - Particle color (hex format)
+   * 
+   * @returns {void}
+   */
   createParticles() {
     this.particles = [];
     // Reduced density for a cleaner look (larger divisor)
@@ -51,16 +106,44 @@ class NeuralNetwork {
     }
   }
 
+  /**
+   * Handles mouse move events and updates the mouse position for particle interaction.
+   * 
+   * @param {MouseEvent} e - The mouse event object
+   * @returns {void}
+   */
   handleMouseMove(e) {
     this.mouse.x = e.x;
     this.mouse.y = e.y;
   }
 
+  /**
+   * Handles mouse out events by resetting mouse position to null,
+   * disabling particle interaction when mouse leaves the window.
+   * 
+   * @returns {void}
+   */
   handleMouseOut() {
     this.mouse.x = null;
     this.mouse.y = null;
   }
 
+  /**
+   * Main animation loop that updates and renders all particles, connections, and pulses.
+   * Handles particle physics (movement, boundary collision), mouse interaction,
+   * connection drawing, pulse spawning, and pulse animation.
+   * Uses requestAnimationFrame for smooth 60fps animation.
+   * 
+   * @typedef {Object} Pulse
+   * @property {number} x - Starting X coordinate
+   * @property {number} y - Starting Y coordinate
+   * @property {number} targetX - Target X coordinate
+   * @property {number} targetY - Target Y coordinate
+   * @property {number} progress - Animation progress (0 to 1)
+   * @property {number} speed - Speed of pulse movement per frame
+   * 
+   * @returns {void}
+   */
   animate() {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
@@ -157,7 +240,11 @@ class NeuralNetwork {
   }
 }
 
-// Initialize when DOM is loaded
+/**
+ * Initializes the NeuralNetwork animation when the DOM is fully loaded.
+ * This ensures all DOM elements (especially the canvas) are available before
+ * attempting to create the neural network visualization.
+ */
 document.addEventListener('DOMContentLoaded', () => {
   new NeuralNetwork();
 });
