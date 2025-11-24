@@ -7,7 +7,7 @@ class NeuralNetwork {
   /**
    * Creates a new NeuralNetwork instance and initializes the animation.
    * Sets up canvas, particles, event listeners, and starts the animation loop.
-   * 
+   *
    * @constructor
    */
   constructor() {
@@ -32,8 +32,8 @@ class NeuralNetwork {
     /** @type {number} Maximum distance for mouse interaction with particles (in pixels) */
     this.mouseDistance = 200;
 
-    /** 
-     * @type {{x: number|null, y: number|null}} 
+    /**
+     * @type {{x: number|null, y: number|null}}
      * Current mouse position, null when mouse is outside canvas
      */
     this.mouse = {
@@ -52,7 +52,7 @@ class NeuralNetwork {
   /**
    * Initializes the neural network by setting canvas size and creating particles.
    * Called once during construction.
-   * 
+   *
    * @returns {void}
    */
   init() {
@@ -63,7 +63,7 @@ class NeuralNetwork {
   /**
    * Handles window resize events by adjusting canvas dimensions and recreating particles
    * to maintain consistent particle density across different screen sizes.
-   * 
+   *
    * @returns {void}
    */
   resize() {
@@ -76,7 +76,7 @@ class NeuralNetwork {
    * Creates particles with random positions and velocities.
    * Particle count is calculated based on canvas area to maintain consistent density.
    * Each particle has position (x, y), velocity (vx, vy), size, and color.
-   * 
+   *
    * @typedef {Object} Particle
    * @property {number} x - X coordinate position
    * @property {number} y - Y coordinate position
@@ -84,7 +84,7 @@ class NeuralNetwork {
    * @property {number} vy - Y velocity component
    * @property {number} size - Particle radius
    * @property {string} color - Particle color (hex format)
-   * 
+   *
    * @returns {void}
    */
   createParticles() {
@@ -108,7 +108,7 @@ class NeuralNetwork {
 
   /**
    * Handles mouse move events and updates the mouse position for particle interaction.
-   * 
+   *
    * @param {MouseEvent} e - The mouse event object
    * @returns {void}
    */
@@ -120,7 +120,7 @@ class NeuralNetwork {
   /**
    * Handles mouse out events by resetting mouse position to null,
    * disabling particle interaction when mouse leaves the window.
-   * 
+   *
    * @returns {void}
    */
   handleMouseOut() {
@@ -133,7 +133,7 @@ class NeuralNetwork {
    * Handles particle physics (movement, boundary collision), mouse interaction,
    * connection drawing, pulse spawning, and pulse animation.
    * Uses requestAnimationFrame for smooth 60fps animation.
-   * 
+   *
    * @typedef {Object} Pulse
    * @property {number} x - Starting X coordinate
    * @property {number} y - Starting Y coordinate
@@ -141,7 +141,7 @@ class NeuralNetwork {
    * @property {number} targetY - Target Y coordinate
    * @property {number} progress - Animation progress (0 to 1)
    * @property {number} speed - Speed of pulse movement per frame
-   * 
+   *
    * @returns {void}
    */
   animate() {
